@@ -5,6 +5,27 @@ This repository contains programs of Machine Learning and Deep Learning Techniqu
 
 The precision-recall curve shows the tradeoff between precision and recall for different threshold. A high area under the curve represents both high recall and high precision, where high precision relates to a low false positive rate, and high recall relates to a low false negative rate.
 
+Confusion Matrix
+A confusion matrix is sometimes used to illustrate classifier performance based on the above four values (TP, FP, TN, FN). These are plotted against each other to show a confusion matrix:
+![image](https://user-images.githubusercontent.com/15137793/179092728-ddee5934-d5f0-4e82-a035-b4fb6cafc1ff.png)
+
+Accuracy
+The base metric used for model evaluation is often Accuracy, describing the number of correct predictions over all predictions:
+![image](https://user-images.githubusercontent.com/15137793/179092979-8d13b4f0-c710-4647-a3a2-6dac79c65143.png)
+
+Precision
+Precision is a measure of how many of the positive predictions made are correct (true positives). The formula for it is:
+![image](https://user-images.githubusercontent.com/15137793/179093118-aa65e74f-1c75-478d-9913-88ac9e54f29d.png)
+
+Recall / Sensitivity
+Recall is a measure of how many of the positive cases the classifier correctly predicted, over all the positive cases in the data. It is sometimes also referred to as Sensitivity. The formula for it is:
+![image](https://user-images.githubusercontent.com/15137793/179093272-a97bebfb-5289-473e-bd40-5c81f089a7a1.png)
+
+F1-Score
+F1-Score is a measure combining both precision and recall. It is generally described as the harmonic mean of the two. Harmonic mean is just another way to calculate an “average” of values, generally described as more suitable for ratios (such as precision and recall) than the traditional arithmetic mean. The formula used for F1-score in this case is:
+![image](https://user-images.githubusercontent.com/15137793/179093473-9c9e4f39-47e2-4ad7-9a3e-eb5ae3099a1f.png)
+
+
 # Recommendation of use 
 To use Jupyter Notebook version of the code to better understand all implemented machine learning and deep learning techniques
 
